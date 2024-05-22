@@ -1,0 +1,98 @@
+2023-12-27 11:47:50,445 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 11:47:59,433 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 11:47:59,449 INFO c.b.v.B2BMobileConfigurationVO [main] Starting of MobileConfigurationVO method
+2023-12-27 11:47:59,449 INFO c.b.v.B2BMobileConfigurationVO [main] Ending of MobileConfigurationVO method
+2023-12-27 11:47:59,449 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method initMobileDriver
+2023-12-27 11:47:59,450 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] url*******************local
+2023-12-27 11:53:42,105 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 11:53:50,132 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 11:53:50,145 INFO c.b.v.B2BMobileConfigurationVO [main] Starting of MobileConfigurationVO method
+2023-12-27 11:53:50,145 INFO c.b.v.B2BMobileConfigurationVO [main] Ending of MobileConfigurationVO method
+2023-12-27 11:53:50,145 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method initMobileDriver
+2023-12-27 11:53:50,146 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] url*******************local
+2023-12-27 11:54:10,587 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method initMobileDriver
+2023-12-27 11:54:10,589 DEBUG c.b.b.B2BBaseAutomationPage [main] In Constructor /Users/natyagupta/Documents/Mobile Framework Boilerplate/src/main/resources
+2023-12-27 12:07:16,084 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 12:07:16,103 INFO c.b.v.B2BMobileConfigurationVO [main] Starting of MobileConfigurationVO method
+2023-12-27 12:07:16,103 INFO c.b.v.B2BMobileConfigurationVO [main] Ending of MobileConfigurationVO method
+2023-12-27 12:07:16,103 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method initMobileDriver
+2023-12-27 12:07:16,104 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] url*******************local
+2023-12-27 12:07:36,407 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method initMobileDriver
+2023-12-27 12:07:36,409 DEBUG c.b.b.B2BBaseAutomationPage [main] In Constructor /Users/natyagupta/Documents/Mobile Framework Boilerplate/src/main/resources
+2023-12-27 12:13:31,505 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 12:13:31,518 INFO c.b.v.B2BMobileConfigurationVO [main] Starting of MobileConfigurationVO method
+2023-12-27 12:13:31,518 INFO c.b.v.B2BMobileConfigurationVO [main] Ending of MobileConfigurationVO method
+2023-12-27 12:13:31,518 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method initMobileDriver
+2023-12-27 12:13:31,520 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] url*******************local
+2023-12-27 12:13:51,847 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method initMobileDriver
+2023-12-27 12:13:51,849 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:13:51,849 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:14:23,479 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:14:28,858 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:14:28,858 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:14:34,377 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:14:34,377 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:14:39,760 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:14:39,760 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:14:44,689 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:15:26,260 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:15:31,729 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:15:31,730 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:15:37,227 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:15:37,227 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:15:42,992 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:15:42,993 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of verticalScroll Method
+2023-12-27 12:15:48,034 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of verticalScroll Method
+2023-12-27 12:16:00,926 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of findElement Method
+2023-12-27 12:16:06,867 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of findElement Method
+2023-12-27 12:16:07,517 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:16:07,517 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:16:27,229 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of explicitWait method
+2023-12-27 12:16:27,494 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of explicitWait method
+2023-12-27 12:16:38,982 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:16:38,982 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:16:40,992 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of findElement Method
+2023-12-27 12:16:41,249 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of findElement Method
+2023-12-27 12:16:52,180 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of findElement Method
+2023-12-27 12:17:14,260 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:17:14,261 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:17:15,733 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method quitDriver in BaseMobileAutomationTest 
+2023-12-27 12:17:16,227 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method quitDriver in BaseMobileAutomationTest
+2023-12-27 12:25:25,154 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 12:25:25,169 INFO c.b.v.B2BMobileConfigurationVO [main] Starting of MobileConfigurationVO method
+2023-12-27 12:25:25,169 INFO c.b.v.B2BMobileConfigurationVO [main] Ending of MobileConfigurationVO method
+2023-12-27 12:25:25,169 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method initMobileDriver
+2023-12-27 12:25:25,171 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] url*******************local
+2023-12-27 12:25:44,313 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method initMobileDriver
+2023-12-27 12:25:44,314 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:25:44,315 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:30:33,149 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 12:30:33,163 INFO c.b.v.B2BMobileConfigurationVO [main] Starting of MobileConfigurationVO method
+2023-12-27 12:30:33,163 INFO c.b.v.B2BMobileConfigurationVO [main] Ending of MobileConfigurationVO method
+2023-12-27 12:30:33,163 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method initMobileDriver
+2023-12-27 12:30:33,164 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] url*******************local
+2023-12-27 12:30:53,586 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method initMobileDriver
+2023-12-27 12:30:53,587 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:30:53,587 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:35:19,297 DEBUG c.b.m.t.b.B2BBaseMobileAutomationTest [main] Inside init Application
+2023-12-27 12:35:19,316 INFO c.b.v.B2BMobileConfigurationVO [main] Starting of MobileConfigurationVO method
+2023-12-27 12:35:19,316 INFO c.b.v.B2BMobileConfigurationVO [main] Ending of MobileConfigurationVO method
+2023-12-27 12:35:19,316 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method initMobileDriver
+2023-12-27 12:35:19,317 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] url*******************local
+2023-12-27 12:35:40,081 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method initMobileDriver
+2023-12-27 12:35:40,082 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:35:40,082 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:35:45,825 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:35:45,825 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:36:05,699 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of explicitWait method
+2023-12-27 12:36:05,984 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of explicitWait method
+2023-12-27 12:36:20,676 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:36:20,676 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:36:22,686 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of findElement Method
+2023-12-27 12:36:23,410 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of findElement Method
+2023-12-27 12:36:33,538 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Starting of findElement Method
+2023-12-27 12:37:03,812 INFO c.b.m.p.b.B2BBaseMobileAutomationPage [main] Ending of findElement Method
+2023-12-27 12:37:13,014 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method getMobileDriver
+2023-12-27 12:37:13,014 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method getMobileDriver
+2023-12-27 12:37:14,475 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Starting of method quitDriver in BaseMobileAutomationTest 
+2023-12-27 12:37:15,051 INFO c.b.m.t.b.B2BBaseMobileAutomationTest [main] Ending of method quitDriver in BaseMobileAutomationTest

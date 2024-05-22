@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">automation-classplus-wl-mobile</th></tr>
+<tr><td><a href="#t0">classplus WL automation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">115,743</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">automation-classplus-wl-mobile</th></tr></tbody><tbody id="t0"><tr><th colspan="4">classplus WL automation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.testbook.mobile.tests.login.TestBookMobileLoginTest</td><td><a href="#m0">testChangeEnvironment</a></td><td rowspan="1">1703660740101</td><td rowspan="1">3385</td></tr><tr class="failedeven"><td><a href="#m1">testVerifyOTP</a></td><td rowspan="1">1703660780677</td><td rowspan="1">50952</td></tr><tr><th colspan="4">classplus WL automation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.testbook.mobile.tests.login.TestBookMobileLoginTest</td><td><a href="#m2">testLoginWithValidNumber</a></td><td rowspan="1">1703660747302</td><td rowspan="1">33370</td></tr></tbody>
+</table>
+<h2>classplus WL automation</h2><h3 id="m0">com.testbook.mobile.tests.login.TestBookMobileLoginTest#testChangeEnvironment</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Exception occured while testing  Change Environment : An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-3.local&apos;, ip: &apos;fe80:0:0:0:cfa:10ef:7680:2599%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7&apos;, java.version: &apos;17.0.2&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., databaseEnabled: false, desired: {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., deviceName: Galaxy, ignoreHiddenApiPolicyError: true, newCommandTimeout: 15000, platformName: android, platformVersion: 13, udid: RZ8W804C6ZR}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M135FU, deviceName: RZ8W804C6ZR, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8W804C6ZR, ignoreHiddenApiPolicyError: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15000, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: RZ8W804C6ZR, viewportRect: {height: 2141, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ad94828f-13ad-4c17-a58b-18208f2f27e4
+*** Element info: {Using=id, value=bt_change_env}
+	at com.testbook.mobile.tests.login.TestBookMobileLoginTest.testChangeEnvironment(TestBookMobileLoginTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testbook.mobile.tests.login.TestBookMobileLoginTest#testVerifyOTP</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Exception occured while testing Verify OTP : An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-3.local&apos;, ip: &apos;fe80:0:0:0:cfa:10ef:7680:2599%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7&apos;, java.version: &apos;17.0.2&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., databaseEnabled: false, desired: {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., deviceName: Galaxy, ignoreHiddenApiPolicyError: true, newCommandTimeout: 15000, platformName: android, platformVersion: 13, udid: RZ8W804C6ZR}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M135FU, deviceName: RZ8W804C6ZR, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8W804C6ZR, ignoreHiddenApiPolicyError: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15000, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: RZ8W804C6ZR, viewportRect: {height: 2141, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ad94828f-13ad-4c17-a58b-18208f2f27e4
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text = &apos;Classplus&apos;]}
+	at com.testbook.mobile.tests.login.TestBookMobileLoginTest.testVerifyOTP(TestBookMobileLoginTest.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.testbook.mobile.tests.login.TestBookMobileLoginTest#testLoginWithValidNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

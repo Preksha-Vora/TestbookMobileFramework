@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-automation_classplus_wl_mobile" class="navigator-link">
+              <span class="suite-name border-failed">automation-classplus-wl-mobile</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-automation_classplus_wl_mobile" class="navigator-link ">
+                    <span>TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-automation_classplus_wl_mobile" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-automation_classplus_wl_mobile" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-automation_classplus_wl_mobile" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-automation_classplus_wl_mobile" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-automation_classplus_wl_mobile" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-automation_classplus_wl_mobile" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-automation_classplus_wl_mobile" class="hide-methods failed suite-automation_classplus_wl_mobile"> (hide)</a> <!-- hide-methods failed suite-automation_classplus_wl_mobile -->
+                      <a href="#" panel-name="suite-automation_classplus_wl_mobile" class="show-methods failed suite-automation_classplus_wl_mobile"> (show)</a> <!-- show-methods failed suite-automation_classplus_wl_mobile -->
+                    </span>
+                    <div class="method-list-content failed suite-automation_classplus_wl_mobile">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_classplus_wl_mobile" title="com.testbook.mobile.tests.login.TestBookMobileLoginTest" class="method navigator-link" hash-for-method="testChangeEnvironment">testChangeEnvironment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_classplus_wl_mobile" title="com.testbook.mobile.tests.login.TestBookMobileLoginTest" class="method navigator-link" hash-for-method="testVerifyOTP">testVerifyOTP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-automation_classplus_wl_mobile -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-automation_classplus_wl_mobile" class="hide-methods passed suite-automation_classplus_wl_mobile"> (hide)</a> <!-- hide-methods passed suite-automation_classplus_wl_mobile -->
+                      <a href="#" panel-name="suite-automation_classplus_wl_mobile" class="show-methods passed suite-automation_classplus_wl_mobile"> (show)</a> <!-- show-methods passed suite-automation_classplus_wl_mobile -->
+                    </span>
+                    <div class="method-list-content passed suite-automation_classplus_wl_mobile">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-automation_classplus_wl_mobile" title="com.testbook.mobile.tests.login.TestBookMobileLoginTest" class="method navigator-link" hash-for-method="testLoginWithValidNumber">testLoginWithValidNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-automation_classplus_wl_mobile -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-automation_classplus_wl_mobile" class="panel automation_classplus_wl_mobile">
+          <div class="suite-automation_classplus_wl_mobile-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testbook.mobile.tests.login.TestBookMobileLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangeEnvironment">
+                  </a> <!-- testChangeEnvironment -->
+                  <span class="method-name">testChangeEnvironment</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing  Change Environment : An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-3.local&apos;, ip: &apos;fe80:0:0:0:cfa:10ef:7680:2599%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7&apos;, java.version: &apos;17.0.2&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., databaseEnabled: false, desired: {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., deviceName: Galaxy, ignoreHiddenApiPolicyError: true, newCommandTimeout: 15000, platformName: android, platformVersion: 13, udid: RZ8W804C6ZR}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M135FU, deviceName: RZ8W804C6ZR, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8W804C6ZR, ignoreHiddenApiPolicyError: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15000, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: RZ8W804C6ZR, viewportRect: {height: 2141, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ad94828f-13ad-4c17-a58b-18208f2f27e4
+*** Element info: {Using=id, value=bt_change_env}
+	at com.testbook.mobile.tests.login.TestBookMobileLoginTest.testChangeEnvironment(TestBookMobileLoginTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify Change Environment in CLP-Staging)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerifyOTP">
+                  </a> <!-- testVerifyOTP -->
+                  <span class="method-name">testVerifyOTP</span>
+                  <div class="stack-trace">java.lang.AssertionError: Exception occured while testing Verify OTP : An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-3.local&apos;, ip: &apos;fe80:0:0:0:cfa:10ef:7680:2599%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.7&apos;, java.version: &apos;17.0.2&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., databaseEnabled: false, desired: {appActivity: co.classplus.app.ui.common...., appPackage: co.classplus.app.test, autoAcceptAlerts: true, autoGrantPermissions: true, clientApiKey: 6746f86b-0d3b-4746-a042-5e9..., deviceName: Galaxy, ignoreHiddenApiPolicyError: true, newCommandTimeout: 15000, platformName: android, platformVersion: 13, udid: RZ8W804C6ZR}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-M135FU, deviceName: RZ8W804C6ZR, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8W804C6ZR, ignoreHiddenApiPolicyError: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15000, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 66, takesScreenshot: true, udid: RZ8W804C6ZR, viewportRect: {height: 2141, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ad94828f-13ad-4c17-a58b-18208f2f27e4
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text = &apos;Classplus&apos;]}
+	at com.testbook.mobile.tests.login.TestBookMobileLoginTest.testVerifyOTP(TestBookMobileLoginTest.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify OTP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-automation_classplus_wl_mobile-class-failed -->
+          <div class="suite-automation_classplus_wl_mobile-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testbook.mobile.tests.login.TestBookMobileLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidNumber">
+                  </a> <!-- testLoginWithValidNumber -->
+                  <span class="method-name">testLoginWithValidNumber</span>
+                  <em>
+( Verify Login With Valid Number in Login or SignUp Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-automation_classplus_wl_mobile-class-passed -->
+        </div> <!-- panel automation_classplus_wl_mobile -->
+        <div panel-name="test-xml-automation_classplus_wl_mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/natyagupta/Documents/Mobile Framework Boilerplate/TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;automation-classplus-wl-mobile&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;udid_one&quot; value=&quot;RZ8W804C6ZR&quot;/&gt;
+  &lt;parameter name=&quot;platformName_one&quot; value=&quot;Android&quot;/&gt;
+  &lt;parameter name=&quot;siteURL&quot; value=&quot;https://web-qa.classplusapp.com/&quot;/&gt;
+  &lt;parameter name=&quot;udid_two&quot; value=&quot;NZRKWSCAAQYLQOPJ&quot;/&gt;
+  &lt;parameter name=&quot;language&quot; value=&quot;en&quot;/&gt;
+  &lt;parameter name=&quot;otp&quot; value=&quot;1234&quot;/&gt;
+  &lt;parameter name=&quot;platformVersion_one&quot; value=&quot;13&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;local&quot;/&gt;
+  &lt;parameter name=&quot;udid_three&quot; value=&quot;13790511770008K&quot;/&gt;
+  &lt;parameter name=&quot;orgCode&quot; value=&quot;learn&quot;/&gt;
+  &lt;parameter name=&quot;deviceName_one&quot; value=&quot;Galaxy&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;clientApiKey&quot; value=&quot;6746f86b-0d3b-4746-a042-5e9d2beeeeac&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;classplus WL automation&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testbook.mobile.tests.login.TestBookMobileLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- classplus WL automation --&gt;
+&lt;/suite&gt; &lt;!-- automation-classplus-wl-mobile --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-automation_classplus_wl_mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for automation-classplus-wl-mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">classplus WL automation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-automation_classplus_wl_mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for automation-classplus-wl-mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-automation_classplus_wl_mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for automation-classplus-wl-mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_automation_classplus_wl_mobile');
+function tableData_automation_classplus_wl_mobile() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testVerifyOTP')
+data.setCell(0, 2, 'com.testbook.mobile.tests.login.TestBookMobileLoginTest')
+data.setCell(0, 3, 50952);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoginWithValidNumber')
+data.setCell(1, 2, 'com.testbook.mobile.tests.login.TestBookMobileLoginTest')
+data.setCell(1, 3, 33370);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testChangeEnvironment')
+data.setCell(2, 2, 'com.testbook.mobile.tests.login.TestBookMobileLoginTest')
+data.setCell(2, 3, 3385);
+window.suiteTableData['automation_classplus_wl_mobile']= { tableData: data, tableDiv: 'times-div-automation_classplus_wl_mobile'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-automation_classplus_wl_mobile">
+              </div> <!-- times-div-automation_classplus_wl_mobile -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-automation_classplus_wl_mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for automation-classplus-wl-mobile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-automation_classplus_wl_mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-automation_classplus_wl_mobile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testbook.mobile.tests.login.TestBookMobileLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initAutomation(en)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">initClass(Galaxy, RZ8W804C6ZR, Android, 13, local, 6746f86b-0d3b-4746-a042-5e9d2beeeeac, chrome, 1234)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testChangeEnvironment</span>
+                <span class="method-start">20816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testChangeEnvironment status=FAILURE method=TestBookMobileLoginTest.testChangeEnvir...)</span>
+                <span class="method-start">26538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidNumber</span>
+                <span class="method-start">28017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testLoginWithValidNumber status=SUCCESS method=TestBookMobileLoginTest.testLoginWit...)</span>
+                <span class="method-start">61390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testVerifyOTP</span>
+                <span class="method-start">61392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">take_screenshot_on_failure([TestResult name=testVerifyOTP status=FAILURE method=TestBookMobileLoginTest.testVerifyOTP()[pri:3, ...)</span>
+                <span class="method-start">113728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver(RZ8W804C6ZR)</span>
+                <span class="method-start">115189 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

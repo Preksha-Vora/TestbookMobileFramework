@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [automation-classplus-wl-mobile]" guice-stage="DEVELOPMENT">
+  <parameter name="udid_one" value="RZ8W804C6ZR"/>
+  <parameter name="platformName_one" value="Android"/>
+  <parameter name="siteURL" value="https://web-qa.classplusapp.com/"/>
+  <parameter name="udid_two" value="NZRKWSCAAQYLQOPJ"/>
+  <parameter name="language" value="en"/>
+  <parameter name="otp" value="1234"/>
+  <parameter name="platformVersion_one" value="13"/>
+  <parameter name="url" value="local"/>
+  <parameter name="udid_three" value="13790511770008K"/>
+  <parameter name="orgCode" value="learn"/>
+  <parameter name="deviceName_one" value="Galaxy"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="clientApiKey" value="6746f86b-0d3b-4746-a042-5e9d2beeeeac"/>
+  <test thread-count="5" name="classplus WL automation(failed)">
+    <classes>
+      <class name="com.testbook.mobile.tests.login.TestBookMobileLoginTest">
+        <methods>
+          <include name="initClass"/>
+          <include name="initAutomation"/>
+          <include name="take_screenshot_on_failure"/>
+          <include name="quitDriver"/>
+          <include name="testVerifyOTP"/>
+          <include name="testChangeEnvironment"/>
+        </methods>
+      </class> <!-- com.testbook.mobile.tests.login.TestBookMobileLoginTest -->
+    </classes>
+  </test> <!-- classplus WL automation(failed) -->
+</suite> <!-- Failed suite [automation-classplus-wl-mobile] -->
